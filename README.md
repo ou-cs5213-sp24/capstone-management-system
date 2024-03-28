@@ -22,6 +22,20 @@ Team members with the developer role will need to set up a development environme
 
 [Django CMS Requirements](https://docs.django-cms.org/en/latest/index.html#requirements)
 
+# How to Contribute
+
+The basic workflow for developers is the following:
+
+* Clone the repo
+* Create a branch based on `dev`
+* Write a new feature or fix a bug
+* Locally test your changes while you develop
+* Push your branch to GitHub
+* Open a pull/merge request on GitHub targeting `dev` and await a code review
+* Upon a successful review, the branch will be merged into `dev`
+
+For a more detailed description, please see [this tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). You don't have to use the GitFlow CLI tools, just understand the technique.
+
 # Production Environment
 
 To be filled out during the completion of Milestone 2.
