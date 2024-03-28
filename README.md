@@ -29,3 +29,14 @@ To be filled out during the completion of Milestone 2.
 * Where the production environment is located
 * How to access the secrets for the production environment (secrets should be stored securely)
 
+# Discord
+
+![](discord-logo-blue.png)
+
+Join the Discord to communicate within and between teams during the development of the CMS platform. Discord provides a familiar and convenient instant messaging service facilitating quick and efficient communication during development.
+
+If you encounter any difficulties or issues while you are developing, testing, or otherwise working on the CMS system, feel free to post a question in the discord.
+
+Click the following link to join:
+
+[https://discord.gg/s3FRG7FY](https://discord.gg/s3FRG7FY)
