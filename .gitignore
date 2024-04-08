@@ -1,4 +1,2 @@
-capstonecms/db.sqlite3
 .venv
-capstonecms/capstonecms/__pycache__
-capstonecms/__pycache__
+capstonecms

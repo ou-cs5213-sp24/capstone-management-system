@@ -4,6 +4,8 @@ pip install --upgrade pip
 
 pip install django-cms djangocms-text-ckeditor djangocms-frontend django-filer djangocms-versioning djangocms-alias djangocms_admin_style
 
+django-admin startproject capstonecms --template https://github.com/django-cms/cms-template/archive/4.1.tar.gz
+
 cd capstonecms
 
 export EXISTS=$(ls . | grep db.sqlite3)
