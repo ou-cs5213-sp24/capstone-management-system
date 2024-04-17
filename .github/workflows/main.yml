@@ -1,0 +1,24 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run tests
+        run: |
+          #  test commands here
+
+      - name: Trigger Jenkins Job
+        run: |
+          curl -X POST http://10.254.214.49:8080/job/-job-name/build \
+            --user -jenkins-username:-jenkins-api-token \
+            --data-urlencode json='{"parameter": [{"name":"PARAM_NAME", "value":"PARAM_VALUE"}]}'
