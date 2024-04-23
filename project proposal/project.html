@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Proposal</title>
+  <link rel="stylesheet" href="projectcss.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+
+    <!-- Proposal Submission Section -->
+    <div class="form login">
+      <header>Project Proposal</header>
+      <form id="proposal-form">
+        <div class="form-group">
+          <label for="project-name">Project Name</label>
+          <input type="text" id="project-name" name="project-name" placeholder="Enter your project name" required>
+        </div>
+        <div class="form-group">
+          <label for="project-description">Project Description</label>
+          <textarea id="project-description" name="project-description" maxlength="500" placeholder="Enter your description(maximum 500 words)" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="project-leader">Project Leader</label>
+          <select id="project-leader" name="project-leader" required>
+            <option value="">Select Project Leader</option>
+            <option value="leader1">Project Leader 1</option>
+            <option value="leader2">Project Leader 2</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="assigned-faculty">Assigned Faculty</label>
+          <input type="text" id="assigned-faculty" name="assigned-faculty" placeholder="Enter the faculty name" required>
+        </div>
+        <div class="form-group">
+          <label for="upload-files">Upload Files</label>
+          <input type="file" id="upload-files" name="upload-files" multiple required>
+        </div>
+        <input type="submit" class="button" value="Submit">
+      </form>
+    </div>
+</body>
+</html>
