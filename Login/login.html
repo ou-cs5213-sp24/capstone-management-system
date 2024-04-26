@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Registration Form</title>
+  <link rel="stylesheet" href="logincss.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="login.php" method="post">
+        <label for="email">OU Email or OUNetID</label>
+        <input type="text" id="email" name="email" placeholder="Enter your OU Email or OUNetID">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <label for="role">Role</label>
+        <select id="loginRole" name="role">
+          <option value="">Select Role</option>
+          <option value="student">Student</option>
+          <option value="faculty">Faculty</option>
+          <option value="admin">Admin</option>
+        </select>
+        <a href="#">Forgot password?</a>
+        <input type="submit" class="button" value="Login">
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="registration.php" method="post">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
+        <label for="username">OUNetID</label>
+        <input type="text" id="username" name="username" placeholder="Enter your OUNetID">
+        <label for="regEmail">OU Email Address</label>
+        <input type="text" id="regEmail" name="regEmail" placeholder="Enter your OU email address">
+        <label for="regPassword">Password</label>
+        <input type="password" id="regPassword" name="regPassword" placeholder="Create a password">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password">
+        <label for="role">Role</label>
+        <select id="signupRole" name="role">
+          <option value="" disabled selected hidden>Select Role</option>
+          <option value="student">Student</option>
+          <option value="faculty">Faculty</option>
+          <option value="admin">Admin</option>
+        </select>
+        <input type="submit" class="button" value="Signup">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
